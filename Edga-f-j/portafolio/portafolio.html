@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header> 
+        <h1>My portfolio</h1>
+    </header>
+   
+    <header>
+        <section class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#about">sobre mi</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="contacto">contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    </header>
+
+    <section id="about">
+        <h2>sobre mi</h2>
+        <p>Hola, mi nombre es Fabian, un desarrollador full stack apacionado por crear soluciones innovadores</p>
+    </section>
+
+
+    <section id="portafolio">
+        <h2>portafolio</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="images/postre.jpg" alt="proyecto 1">
+                <p>Este proyecto consistia en hacer un postre para la real realeza de inglaterra en tierar rusas</p>
+            </div>
+            <div class="project">
+                <img src="images/quiche lorraine.jpg" alt="proyecto 2">
+                <p>Este mega proyecto tuvo el objetivo de deleitar el paladar de la reina octavia segunda de alemania</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacto">
+        <h2>contacto</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Correo Electronico:</label>
+            <input type="text" id="email" name="email" required><br>
+            <label for="message">Mensaje:</label>
+            <textarea name="message" id="message" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #b01111;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+}
+
+h2{
+    padding: 60px;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+
+nav {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #b0118e;
+    z-index: 1000; /* Para asegurarte de que el menú esté por encima del contenido */
+}
+/*aaa*/
+nav ul{
+
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+
+    display: inline;
+    margin: 1px 0;
+}
+
+nav ul li a{
+    
+    color:#fff;
+    padding: 10px;
+    text-decoration:none
+}
+
+nav ul li:hover{
+    background: #59645a;
+}
+
+.wrapper {
+    width: 80%;
+    margin-top: 80px; /* Ajusta este valor dependiendo de la altura de tu menú */
+  }
+
+#about{
+    padding: 5px;
+    background: #7b2020;
+}
+#about h2{
+    margin-top: 0;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.project{
+    width: 300px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.project img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#contact{
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    margin-bottom: 5px;
+}
+form input, form textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+form input[type="submit"]{
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
